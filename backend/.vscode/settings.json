@@ -1,0 +1,19 @@
+{
+    "python.pythonPath": "C:\\Users\\Daniel.Lyudov\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+    "editor.formatOnSave": true,
+    "python.linting.pep8Enabled": true,
+    "python.linting.pylintPath": "${workspaceFolder}\\backend\\env\\Lib\\site-packages\\pylint",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pylintEnabled": false,
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    "python.venvPath": "${workspaceFolder}/backend/env/Sripts/python3",
+    "python.linting.enabled": true,
+    "python.linting.pep8Args": [
+        "--ignore=E501"
+    ]
+}
