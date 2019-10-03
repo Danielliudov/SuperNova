@@ -1,3 +1,21 @@
+.greetings {
+  -webkit-text-fill-color: white;
+}
 
+.logged-in-massage {
+  -webkit-text-fill-color: white;
+}
+
+.registered-users-message {
+  -webkit-text-fill-color: white;
+}
+
+.registered-users {
+  -webkit-text-fill-color: white;
+}
+
+.text-danger {
+  -webkit-text-fill-color: darkred;
+}
 
 /*# sourceMappingURL=home.component.css.map */

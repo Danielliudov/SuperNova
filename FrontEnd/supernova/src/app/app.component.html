@@ -3,10 +3,22 @@
   <div class="navbar-nav">
     <a class="nav-item nav-link" routerLink="/">Home</a>
     <a class="nav-item nav-link" (click)="logout()">Logout</a>
+    <a class="nav-item nav-link" routerLink="gallery">Gallery</a>
   </div>
 </nav>
 
 <!-- main app container -->
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser === null">
+  <div class="navbar-nav">
+    <a class="nav-item nav-link" >Sign In</a>
+    <a class="nav-item nav-link" >Register</a>
+    <a class="nav-item nav-link" >Categories</a>
+  </div>
+</nav>
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+  <h1 class="header">{{title}}</h1>
 <div class="jumbotron">
   <div class="container">
     <div class="row">
@@ -21,9 +33,8 @@
 <!-- credits -->
 <div class="text-center">
   <p>
-    <a href="http://jasonwatmore.com/post/2018/10/29/angular-7-user-registration-and-login-example-tutorial" target="_top">Angular 7 - User Registration and Login Example & Tutorial</a>
-  </p>
-  <p>
-    <a href="http://jasonwatmore.com" target="_top">JasonWatmore.com</a>
+    <a>Copyright © SuperNova 2019. All Right Reserved.</a>
   </p>
 </div>
+
+

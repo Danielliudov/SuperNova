@@ -14,6 +14,9 @@ import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ImageDetailComponent } from './image-detail/image-detail.component';
+import {ImageService} from "./_services/image.service";
 
 @NgModule({
   imports: [
@@ -27,14 +30,17 @@ import { RegisterComponent } from './register';
     AlertComponent,
     HomeComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    GalleryComponent,
+    ImageDetailComponent
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
 
     // provider used to create fake backend
-    fakeBackendProvider
+    fakeBackendProvider,
+    ImageService
   ],
   bootstrap: [AppComponent]
 })

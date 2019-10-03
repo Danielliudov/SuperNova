@@ -1,3 +1,13 @@
+.login {
+  -webkit-text-fill-color: white;
+}
 
+.username {
+  -webkit-text-fill-color: white;
+}
+
+.password {
+  -webkit-text-fill-color: white;
+}
 
 /*# sourceMappingURL=login.component.css.map */

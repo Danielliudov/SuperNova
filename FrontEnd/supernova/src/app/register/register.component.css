@@ -1,3 +1,21 @@
+.register {
+  -webkit-text-fill-color: white;
+}
 
+.first-name {
+  -webkit-text-fill-color: white;
+}
+
+.last-name {
+  -webkit-text-fill-color: white;
+}
+
+.username {
+  -webkit-text-fill-color: white;
+}
+
+.password {
+  -webkit-text-fill-color: white;
+}
 
 /*# sourceMappingURL=register.component.css.map */
