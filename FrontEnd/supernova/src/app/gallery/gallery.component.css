@@ -14,12 +14,10 @@ li {
   display: inline;
 }
 
-h2 {
-  -webkit-text-fill-color: white;
-}
-
 .row {
-  width: 1000px;
+  width: 200%;
+  margin-left: -50%;
+  margin-top: -35%;
 }
 
 /*# sourceMappingURL=gallery.component.css.map */

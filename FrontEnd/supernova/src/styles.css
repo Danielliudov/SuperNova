@@ -2,14 +2,11 @@
 body {
   height: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) no-repeat;
-  overflow: auto;
 }
 
 html {
   height: 100%;
   overflow: hidden;
-  scroll-behavior: smooth;
-  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=styles.css.map */
